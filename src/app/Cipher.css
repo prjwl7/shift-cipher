@@ -1,0 +1,43 @@
+.bigContainer{
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+input{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.outputResult{
+    border: 1px solid white;
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.headingCipher{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 20%;
+    font-style: italic;
+    margin-top: 5%;
+}
+
+button{
+    background-color: green;
+    border-radius: 10px;
+    width: 200px;
+}
